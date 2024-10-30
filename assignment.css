@@ -149,11 +149,7 @@ p {
     font-size: 16px;
     max-width: 700px;
 }
-p1 {
-    font-family: "Arial";
-    font-size: 16px;
-    max-width: 600px;
-}
+
 #image-about {
     margin-right: 50px;
 
@@ -190,6 +186,7 @@ h4 {
 h2 {
     font-size: 22px;
     font-family: "Arial";
+    max-width: 600px;
     
 }
 #blog-intro {
@@ -306,7 +303,7 @@ th {
     width: 300px;
     height:auto;
 }
-h0 {
+h5 {
     font-family: "Arial";
     font-size: 28px;
     font-weight: 600;
@@ -337,9 +334,10 @@ h0 {
     margin-right: 70px;
     margin-bottom: 50px;
 }
-#project-images {
+.project-images {
     width: 70%;
-   min-width: 600px;
+    max-width: 1000px;
+   min-width: 500px;
     height: auto;
    margin-top: 20px;
     align-content: center;
