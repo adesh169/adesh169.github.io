@@ -1,0 +1,381 @@
+/*This is the CSS for the home page*/
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #FFFFFF;
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    border-bottom: 0.5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+#menu-options {
+    display: flex;
+    align-items: center;
+    
+}
+#menu-options a {
+    margin: 0 15px;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-family: "Arial";
+    
+}
+#menu-options a:hover {
+    color: #2A59FF;
+}
+.section_one {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#avatar_image {
+    margin-right: 50px;
+}
+.second_heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    font-family: "Arial";
+    font-weight: 100;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+h3 { max-width: 300px;
+    word-wrap: break-word;
+    font-size: 22px;
+    font-family: "Arial";
+    font-weight: 100;
+    
+}
+.project_grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto; 
+    grid-template-rows: auto auto;
+    grid-row-gap: 80px;
+    grid-column-gap: 80px;
+    height: 100vh;
+    width: 100%;
+    
+    margin-bottom: 500px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+   width: 400px;
+   height: 520px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    
+}
+.card:hover {
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+}
+.view-button {
+    height: 40px;
+    width: 155px;
+    border-radius: 15px;
+    border: 2px solid;
+    border-color: #2A59FF;
+    color: #2A59FF;
+    background-color: transparent;
+    float: right;
+    font-size: 14px;
+}
+.view-button:hover {
+     background-color: #2A59FF;
+    color: #ffffff;
+}
+.container {
+    padding: 2px 16px;
+ 
+}
+.card_image {
+    border-radius:20px 20px 0px 0px;
+   width: 100%;
+   height: 340px;
+     object-fit: cover;
+    object-position: center;
+}
+.footer {
+    background-color: #F5F5F5;
+    padding: 50px 100px 50px 100px;
+    width: fill;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#info {
+    font-family: "Poppins";
+}
+#social_links {
+    display: flex;
+    justify-content: flex-end;
+}
+#social_links img {
+height: 30px;
+    width: auto;
+    padding: 15px;
+}
+/*This is the CSS for the about page*/
+
+h1 {
+    font-family: "Arial";
+    
+}
+.about-section {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+p {
+    font-family: "Arial";
+    font-size: 16px;
+    max-width: 700px;
+}
+p1 {
+    font-family: "Arial";
+    font-size: 16px;
+    max-width: 600px;
+}
+#image-about {
+    margin-right: 50px;
+
+}
+h4 { 
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: 100;
+}
+.blog-container {
+    align-self: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.blog-card {
+    width: 1080px;
+    height: 255px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 50px 50px 50px 0px;
+}
+.blog-table {
+    width: 100%;
+    border-collapse: collapse;
+    padding-left: 20px;
+}
+.blog-image {
+    width: 408px;
+    height: 255px;
+    display: block;
+    margin-left: 20px;
+}
+h2 {
+    font-size: 22px;
+    font-family: "Arial";
+    
+}
+#blog-intro {
+    padding-bottom: 50px;
+}
+.blog-section {
+    padding-bottom: 50px;
+}
+.challenge-section {
+    margin-top: 50px;
+    padding-bottom: 100px;
+    padding-left:
+}
+.card-challenges {
+    width: 400px;
+    background-color: none; 
+    border: 1px solid grey; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    text-align: left; 
+    margin: 20px; 
+}
+.card-image {
+    width: 100%;
+    height: 230px;
+}
+.card-title {
+    padding-left: 20px;
+}
+.card-subheading {
+    padding-left: 20px;
+}
+.card-body {
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-top: 50px;
+}
+.about-parent-container {
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
+
+/*This is the CSS of the resume page*/
+.resume-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    padding-left: 150px;
+     padding-right: 150px;
+     padding-bottom: 50px;
+    align-items: center;
+}
+#resume-image {
+    height: 744px;
+    width: auto;
+}
+.resume-footer {
+    display: flex;
+    justify-content: center;
+    padding-left: 150px;
+     padding-right: 150px;
+     padding-bottom: 50px;
+    
+}
+p3 {
+    font-family: "Arial";
+    font-size: 16px;
+}
+
+/*This is the CSS for the work page*/
+.case-study-parent {
+    display: flex;
+    justify-content: center;
+     background-color: #E1DDFE;
+    align-items: center;
+    padding: 50px 50px 0px 50px;
+}
+#case-study-intro {
+   
+    padding: 50px;
+    padding-top: 150px;
+    height:auto;
+    width: 100%;
+}
+#table-content {
+    margin-top: 10px;
+    border-collapse: collapse;
+    text-align: left;
+}
+th {
+   width: 150px;
+}
+#table-cell-content td {
+    width: 150px;
+    vertical-align: top;
+}
+#table-cell-content th {
+    padding-top: 20px;
+}
+.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+#intro-image {
+    width: 300px;
+    height:auto;
+}
+h0 {
+    font-family: "Arial";
+    font-size: 28px;
+    font-weight: 600;
+    
+}
+#table-intro td {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ADADAD;
+}
+.project-button {
+     height: 40px;
+    width: 155px;
+    border-radius: 15px;
+    background-color: #5547CF;
+    color: aliceblue;
+    border: none;
+}
+#shortcut-CTA {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.project-content {
+    align-content: center;
+    padding-bottom: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+}
+#project-images {
+    width: 70%;
+   min-width: 600px;
+    height: auto;
+   margin-top: 20px;
+    align-content: center;
+    border-radius: 20px;
+}
+#back-to-top {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 50px;
+}
+.to-top {
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+    color: #5547CF;
+    border: 1px solid #5547CF; 
+    background-color: transparent;
+   border-color:#5547CF;
+    float: none;
+}
+.to-top:hover {
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+    color: #ffffff;
+    border: 0px solid #5547CF; 
+    background-color: #5547CF;
+   border-color:#5547CF;
+    float: none;
+    
+} 
+a { 
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+
+}
